@@ -30,7 +30,7 @@ const Weather = () => {
         if (icon) {
             icon = parseInt(icon.slice(0, 2));
             if (icon === 1) {
-                setBackground('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuXyBfSLUZK8k7XSstXmHXU1sVBw_wkWVMw&usqp=CAU');
+                setBackground('https://i.pinimg.com/originals/48/61/e7/4861e74cb5504e77cc68e51771dc4091.jpg');
                 setIcon("fas fa-sun")
             } else if ((icon >= 2 && icon <= 4) || icon === 50) {
                 setBackground('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuXyBfSLUZK8k7XSstXmHXU1sVBw_wkWVMw&usqp=CAU');
