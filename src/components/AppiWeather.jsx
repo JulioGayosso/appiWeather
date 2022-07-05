@@ -33,7 +33,7 @@ const Weather = () => {
                 setBackground('https://i.pinimg.com/originals/48/61/e7/4861e74cb5504e77cc68e51771dc4091.jpg');
                 setIcon("fas fa-sun")
             } else if ((icon >= 2 && icon <= 4) || icon === 50) {
-                setBackground('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuXyBfSLUZK8k7XSstXmHXU1sVBw_wkWVMw&usqp=CAU');
+                setBackground('https://i.pinimg.com/originals/48/61/e7/4861e74cb5504e77cc68e51771dc4091.jpg');
                 if (icon === 2) {
                     setIcon("fas fa-cloud-sun")
                 } else if (icon === 3) {
@@ -42,7 +42,7 @@ const Weather = () => {
                     setIcon("fas fa-cloud");
                 }
             } else if (icon >= 9 && icon <= 11) {
-                setBackground('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuXyBfSLUZK8k7XSstXmHXU1sVBw_wkWVMw&usqp=CAU');
+                setBackground('https://i.pinimg.com/originals/48/61/e7/4861e74cb5504e77cc68e51771dc4091.jpg');
                 if (icon === 9) {
                     setIcon("fas fa-cloud-showers-heavy")
                 } else if (icon === 10) {
@@ -51,7 +51,7 @@ const Weather = () => {
                     setIcon("fas fa-poo-storm");
                 }
             } else if (icon === 13) {
-                setBackground('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHuXyBfSLUZK8k7XSstXmHXU1sVBw_wkWVMw&usqp=CAU');
+                setBackground('https://i.pinimg.com/originals/48/61/e7/4861e74cb5504e77cc68e51771dc4091.jpg');
                 setIcon("fas fa-snowflake")
             }
         }
